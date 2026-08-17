@@ -37,7 +37,7 @@ async def verify(ctx):
         await ctx.send(f"Verify error: {e}")
         print(e)
 
-@bot.event
+@bot.event 
 async def on_member_join(member):
     print(f"Member joined: {member}")
     # webhook feed
